@@ -30,11 +30,11 @@
 						  type="number" class="form-control" id="exampleFormControlTextarea1">
 						</div>
 						<div class="mb-3">
-						  <label for="exampleFormControlTextarea1" class="form-label">Imagen</label>
+						  <label for="exampleFormControlTextarea1" class="form-label">Im&aacute;gen</label>
 						  <input name="imagen" type="file" class="form-control" id="exampleFormControlTextarea1">
 						</div>
 						<div class="mb-3">
-						  <label for="exampleFormControlTextarea1" class="form-label">Codigo</label>
+						  <label for="exampleFormControlTextarea1" class="form-label">C&oacute;digo</label>
 						  <input name="codigo" 
 						  value="<%=producto.getCodigo()%>" readonly="readonly"
 						  type="text" class="form-control" id="exampleFormControlTextarea1" maxlength="7">

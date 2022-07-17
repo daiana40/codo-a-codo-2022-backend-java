@@ -22,11 +22,11 @@
 						  <input name="precio" type="number" class="form-control" id="exampleFormControlTextarea1">
 						</div>
 						<div class="mb-3">
-						  <label for="exampleFormControlTextarea1" class="form-label">Im&aacute;gen</label>
+						  <label for="exampleFormControlTextarea1" class="form-label">Imagen</label>
 						  <input name="imagen" type="file" class="form-control" id="exampleFormControlTextarea1">
 						</div>
 						<div class="mb-3">
-						  <label for="exampleFormControlTextarea1" class="form-label">C&oacute;digo</label>
+						  <label for="exampleFormControlTextarea1" class="form-label">Codigo</label>
 						  <input name="codigo" type="text" class="form-control" id="exampleFormControlTextarea1" maxlength="7">
 						</div>
 						<button class="btn btn-success">
