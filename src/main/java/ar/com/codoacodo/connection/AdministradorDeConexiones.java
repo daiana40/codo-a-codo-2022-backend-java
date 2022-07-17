@@ -21,7 +21,7 @@ public class AdministradorDeConexiones {
 		Connection con = null;
 		try {
 			Class.forName(driverName);
-		    con = DriverManager.getConnection(url, username, password);
+		    con = DriverManager.getConnection(url, user, password);
 			
 		}catch(Exception e){
 			e.printStackTrace();

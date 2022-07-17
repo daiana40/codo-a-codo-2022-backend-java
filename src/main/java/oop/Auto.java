@@ -17,8 +17,8 @@ public class Auto {
 	private Estereo estereo;
 	
 	//cundo nace el objeto: constructor 
-	public Auto(float velociadadMaxima,String marca, Motor motor) {
-		this.setVelocidadMaxima(velociadadMaxima);				
+	public Auto(float velocidadMaxima,String marca, Motor motor) {
+		this.setVelocidadMaxima(velocidadMaxima);				
 		this.setVelocidad(0);
 		this.setAnio(2022);
 		this.setEncedido(false);
@@ -177,4 +177,4 @@ public class Auto {
 	
 	//alt+shit+s
 	
-}}
+}
