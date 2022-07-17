@@ -18,7 +18,7 @@
 					      <th scope="col">ID</th>
 					      <th scope="col">NOMBRE</th>
 					      <th scope="col">PRECIO</th>
-					      <th scope="col">C&Oacute;ODIGO</th>
+					      <th scope="col">CODIGO</th>
 					      <th scope="col">&nbsp;</th>
 					    </tr>
 					  </thead>

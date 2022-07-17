@@ -14,9 +14,9 @@
 					<br>
 					<div class="alert alert-dismissible alert-secondary">
 					  <p class="mb-0" style="text-align:center">Presentamos un Sistema de Inventariado para la PYME Codo a Codo 4.0 donde podras llevar el 
-					  inventario de productos disponible, d&aacutendolo de alta haciendo clic en la opci&oacuten de la barra de navegaci&oacuten "Alta", 
+					  inventario de productos disponible, dando de alta haciendo clic en la opcion de la barra de navegacion "Alta", 
 					  asi mismo puedes ver los articulos disponibles en el Stock haciendo clic en la opcion "Listado". Se realizo aplicando JAVA, usando el IDE eclipse,
-					  el gestor de base de datos HeidiSQL, GitHub y realizando el Deploy v&iacutea Heroku."
+					  el gestor de base de datos HeidiSQL, GitHub y realizando el Deploy via Heroku."
 					  </p>
 					</div>
 				</section>
