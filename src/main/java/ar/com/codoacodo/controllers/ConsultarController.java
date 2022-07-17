@@ -45,7 +45,8 @@ public class ConsultarController extends HttpServlet {
 				String imagen = rs.getString(5);
 				String codigo = rs.getString(6);
 				
-				
+				//cierre de conexion
+				con.close();
 				//campos crear un objeto????
 				Producto prodFromDb = new Producto(idProducto,nombre,precio,fecha,imagen,codigo);
 				
