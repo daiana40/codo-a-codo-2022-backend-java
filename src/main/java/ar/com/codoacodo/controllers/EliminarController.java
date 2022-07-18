@@ -1,4 +1,4 @@
-package ar.com.codoacodo.controller;
+package ar.com.codoacodo.controllers;
 
 import java.io.IOException;
 import ar.com.codoacodo.daos.ProductoDAO;

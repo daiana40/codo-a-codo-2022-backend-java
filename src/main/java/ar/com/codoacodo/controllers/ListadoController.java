@@ -1,4 +1,4 @@
-package ar.com.codoacodo.controller;
+package ar.com.codoacodo.controllers;
 
 
 import java.util.List;
