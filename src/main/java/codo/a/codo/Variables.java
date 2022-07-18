@@ -9,7 +9,7 @@ public class Variables {
 		//string palabra ='Hola soy carlos';
 		
 		//NUMERICOS
-		//byte b = 100; //numeros peque�os  
+		//byte b = 100; //numeros peques  
 		//short s = 10000; // valores moderados
 		//int i = 1000000; //valores grandes
 		//long l = 100000000; //valores enteros muy largos 
