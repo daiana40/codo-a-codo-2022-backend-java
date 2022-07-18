@@ -1,41 +1,30 @@
-package ar.com.codoacodo.controllers;
+package ar.com.codoacodo.controller;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.Statement;
+import ar.com.codoacodo.daos.ProductoDAO;
 
-import ar.com.codoacodo.connection.AdministradorDeConexiones;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 @WebServlet("/api/EliminarController")
-public class EliminarController extends HttpServlet {
+//HERENCIA
+public class EliminarController extends HttpServlet{
 
-
-	@Override
+		@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-			
-		String id = req.getParameter("id");
 		
-		Connection con = AdministradorDeConexiones.getConnection();
-		
-		if(con != null) { 
-			// delete 
-			String sql = "DELETE FROM PRODUCTO WHERE id="+id;
 			
-			try {
-				Statement st = con.createStatement();			
-				st.executeUpdate(sql);
-				
-				con.close();
-				
-				resp.sendRedirect(req.getContextPath()+"/api/ListadoController");
-			}catch (Exception e) {
-				e.printStackTrace();
-			}
+			String id = req.getParameter("id");
+			
+			ProductoDAO dao = new ProductoDAO();
+			
+			dao.eliminarProducto(Long.parseLong(id));
+			
+			resp.sendRedirect(req.getContextPath()+"/api/ListadoController");
+			
 		}
 	}
-}
